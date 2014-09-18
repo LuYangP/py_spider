@@ -63,25 +63,12 @@ class Downloader:
     def put_data_into_db(self):
         return
     
-class Scheduler:
+
     '''
     功能：Queue 控制， 创建Downloader对象， 接收外部参数， 线程控制
     步骤1：初始化，接收参数，包括初始爬取地址，爬取深度等等
     步骤2：创建Downloader对象， ToVisit, Visited队列, 创建线程池
     步骤3：控制爬取深度，结束
     '''
-    def __init__(self):
-        return
-    
-    def get_state(self):
-        return
-    
-    def start(self):
-        return
-    
-    def next(self):
-        return
-    
-    def end(self):
-        return
+
     
